@@ -1,0 +1,180 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+
+.contacts{
+    width: 20%;
+    border-right: 1px solid #ddd;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+/* USUARIO */
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-info p{
+    font-size: 12px;
+    color: gray;
+}
+
+/* ICONOS */
+
+.icons{
+    display: flex;
+    gap: 15px;
+
+    color: gray;
+    font-size: 18px;
+}
+
+/* BOTÓN */
+
+.button-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.button-chat button{
+    background-color: #A491D2;
+    color: white;
+
+    border: none;
+
+    padding: 15px 50px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.button-chat button:hover{
+    opacity: 0.8;
+}
+
+/* CONTACTOS */
+
+.contact{
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.contact:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.contact img{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.contact h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact p{
+    font-size: 14px;
+    color: #555;
+}
+
+/* SECCIÓN PRINCIPAL */
+
+.principal{
+    width: 80%;
+
+    background-color: #f5f5f5;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.principal img{
+    width: 250px;
+
+    margin-bottom: 20px;
+}
+
+.principal h1{
+    font-size: 60px;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+}
+
+.principal p{
+    width: 500px;
+
+    font-size: 22px;
+    line-height: 1.5;
+
+    color: #444;
+}
